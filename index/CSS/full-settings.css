@@ -1,0 +1,28 @@
+.full-settings {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgb(29, 25, 25);
+    z-index: 100000;
+    animation: settings ease 0.5s;
+
+}
+
+.get-settings {
+    display: flex;
+}
+
+@keyframes settings {
+    from {
+        transform: translateX(1000px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
